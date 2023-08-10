@@ -81,10 +81,10 @@
                     <connections>
                         <outlet property="appSign" destination="twp-uD-hiM" id="Uao-yu-hbe"/>
                         <outlet property="gameStatus" destination="jex-N3-l6j" id="d07-Zh-fhO"/>
-                        <outlet property="paper" destination="NCp-G5-bXA" id="9qe-fU-IJI"/>
+                        <outlet property="paperButton" destination="NCp-G5-bXA" id="9qe-fU-IJI"/>
                         <outlet property="playAgainButton" destination="Xof-on-ajk" id="u6s-3D-VLu"/>
                         <outlet property="rockButton" destination="Hrw-qf-i3O" id="0UN-7y-tgq"/>
-                        <outlet property="scissors" destination="cge-k4-C0L" id="zYQ-aj-6Cz"/>
+                        <outlet property="scissorsButton" destination="cge-k4-C0L" id="zYQ-aj-6Cz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

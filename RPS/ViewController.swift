@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var rockButton: UIButton!
     
-    @IBOutlet weak var paper: UIButton!
-    @IBOutlet weak var scissors: UIButton!
+    @IBOutlet weak var paperButton: UIButton!
+    @IBOutlet weak var scissorsButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,34 +71,34 @@ class ViewController: UIViewController {
     
     func showAllPlayerSignButtons(){
         rockButton.isHidden = false
-        scissors.isHidden = false
-        paper.isHidden = false
+        scissorsButton.isHidden = false
+        paperButton.isHidden = false
     }
     
     func enableAllPlayerSignButtons()  {
         rockButton.isEnabled = true
-        scissors.isEnabled = true
-        paper.isEnabled = true
+        scissorsButton.isEnabled = true
+        paperButton.isEnabled = true
     }
     func disableAllPlayerSignButtons(){
         rockButton.isEnabled = false
-        scissors.isEnabled = false
-        paper.isEnabled = false
+        scissorsButton.isEnabled = false
+        paperButton.isEnabled = false
     }
     func showSignUserSelected(sign : Sign){
         switch sign{
         case .scissors:
-            scissors.isHidden = false
+            scissorsButton.isHidden = false
             rockButton.isHidden = true
-            paper.isHidden = true
+            paperButton.isHidden = true
         case .paper:
-            paper.isHidden = false
+            paperButton.isHidden = false
             rockButton.isHidden = true
-            scissors.isHidden = true
+            scissorsButton.isHidden = true
         case .rock:
             rockButton.isHidden = false
-            paper.isHidden = true
-            scissors.isHidden = true
+            paperButton.isHidden = true
+            scissorsButton.isHidden = true
         }
         
     }
